@@ -34,6 +34,8 @@ class MainView extends VBox {
 				Packages.add("obs-studio");
 			if (kdenlive.selected)
 				Packages.add("kdenlive");
+			if (mpv.selected)
+				Packages.add("mpv");
 
 			if (discord.selected)
 				Packages.add("discord");
