@@ -63,7 +63,7 @@
 		</vbox>
 		<vbox text="Media">
 			<hbox>
-				<label text="Media Player" id="title" />
+				<label text="Multimedia Software" id="title" />
 
 			</hbox>
 			<hbox>
@@ -85,6 +85,21 @@
 				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 4;" />
 			</hbox>
 		</vbox>
+		<vbox text="Graphics">
+			<hbox>
+				<label text="Graphics Software" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="gimp" text="GIMP" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="blender" text="Blender" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 5;" />
+			</hbox>
+		</vbox>
 		<vbox text="Communication">
 			<hbox>
 				<label text="Communication" id="title" />
@@ -103,7 +118,7 @@
 				<checkbox id="signal" text="Signal" selected="false" />
 			</hbox>
 			<hbox>
-				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 5;" />
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 6;" />
 			</hbox>
 		</vbox>
 		<vbox text="Integration">

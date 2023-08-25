@@ -10,7 +10,7 @@ class MainView extends VBox {
 	public function new(app:HaxeUIApp) {
 		super();
 		bInstall.onClick = function(e) {
-			tabs.pageIndex = 6;
+			tabs.pageIndex = 7;
 
 			if (firefox.selected)
 				Packages.add("firefox");
@@ -36,6 +36,11 @@ class MainView extends VBox {
 				Packages.add("kdenlive");
 			if (mpv.selected)
 				Packages.add("mpv");
+
+			if (gimp.selected)
+				Packages.add("gimp");
+			if (blender.selected)
+				Packages.add("blender");
 
 			if (discord.selected)
 				Packages.add("discord");
