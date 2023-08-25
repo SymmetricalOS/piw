@@ -1,0 +1,125 @@
+<vbox style="padding: 5px;">
+	<style>
+		.button { font-size: 20px; }
+		* {
+		align-self: center;
+		}
+		#title {
+		width: 300;
+		font-size: 20px;
+		height: 40px;
+		}
+	</style>
+	<tabview id="tabs">
+		<vbox text="Intro">
+			<hbox>
+				<label text="Welcome to Symmetrical OS!" id="title" />
+
+			</hbox>
+			<hbox>
+				<label
+					text="This wizard will help you install essential applications for using your computer." />
+			</hbox>
+			<hbox>
+				<button text="Get Started" id="button1" style="color: white;"
+					onclick="tabs.pageIndex = 1;" />
+			</hbox>
+		</vbox>
+		<vbox text="Browser">
+			<hbox>
+				<label text="Web Browser" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="firefox" text="Firefox" selected="true" />
+			</hbox>
+			<hbox>
+				<checkbox id="chromium" text="Chromium" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="vivaldi" text="Vivaldi" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="opera" text="Opera" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 2;" />
+			</hbox>
+		</vbox>
+		<vbox text="Office">
+			<hbox>
+				<label text="Office Suite" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="libreoffice" text="Libre Office" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="wpsoffice" text="WPS Office (Proprietary)" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 3;" />
+			</hbox>
+		</vbox>
+		<vbox text="Media">
+			<hbox>
+				<label text="Media Player" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="vlc" text="VLC" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 4;" />
+			</hbox>
+		</vbox>
+		<vbox text="Communication">
+			<hbox>
+				<label text="Communication" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="discord" text="Discord" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="prismchat" text="Prism Chat" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="element" text="Element" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 5;" />
+			</hbox>
+		</vbox>
+		<vbox text="Integration">
+			<hbox>
+				<label text="Integration" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="prismshare" text="Prism Share" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="kdeconnect" text="KDE Connect" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Install" id="bInstall" style="color: white;" />
+			</hbox>
+		</vbox>
+		<vbox text="Installation">
+			<hbox>
+				<label text="Installation" id="title" />
+
+			</hbox>
+			<hbox>
+				<label text="Installing" id="installStatus" />
+			</hbox>
+			<hbox>
+				<progress pos="0" id="installProgress" native="true" />
+			</hbox>
+			<hbox>
+				<button text="Finish" id="bFinish" style="color: white;" onclick="Sys.exit(0);" />
+			</hbox>
+		</vbox>
+	</tabview>
+</vbox>
