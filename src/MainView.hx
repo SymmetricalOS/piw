@@ -32,6 +32,8 @@ class MainView extends VBox {
 				Packages.add("audacity");
 			if (obs.selected)
 				Packages.add("obs-studio");
+			if (kdenlive.selected)
+				Packages.add("kdenlive");
 
 			if (discord.selected)
 				Packages.add("discord");

@@ -76,6 +76,9 @@
 				<checkbox id="obs" text="OBS Studio" selected="false" />
 			</hbox>
 			<hbox>
+				<checkbox id="kdenlive" text="Kdenlive" selected="false" />
+			</hbox>
+			<hbox>
 				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 4;" />
 			</hbox>
 		</vbox>
