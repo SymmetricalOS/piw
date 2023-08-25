@@ -70,6 +70,12 @@
 				<checkbox id="vlc" text="VLC" selected="false" />
 			</hbox>
 			<hbox>
+				<checkbox id="audacity" text="Audacity" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="obs" text="OBS Studio" selected="false" />
+			</hbox>
+			<hbox>
 				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 4;" />
 			</hbox>
 		</vbox>
@@ -86,6 +92,9 @@
 			</hbox>
 			<hbox>
 				<checkbox id="element" text="Element" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="signal" text="Signal" selected="false" />
 			</hbox>
 			<hbox>
 				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 5;" />

@@ -28,6 +28,10 @@ class MainView extends VBox {
 
 			if (vlc.selected)
 				Packages.add("vlc");
+			if (audacity.selected)
+				Packages.add("audacity");
+			if (obs.selected)
+				Packages.add("obs-studio");
 
 			if (discord.selected)
 				Packages.add("discord");
@@ -35,6 +39,8 @@ class MainView extends VBox {
 				Packages.add("! sudo escam si prismchat");
 			if (element.selected)
 				Packages.add("element");
+			if (signal.selected)
+				Packages.add("signal-desktop");
 
 			if (prismshare.selected)
 				Packages.add("! sudo escam si prismshare");
