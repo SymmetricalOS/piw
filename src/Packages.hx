@@ -14,7 +14,8 @@ class Packages {
 		pcount++;
 	}
 
-	public static function install(installProgress:haxe.ui.components.HorizontalProgress, installStatus:haxe.ui.components.Label) {
+	public static function install(installProgress:haxe.ui.components.HorizontalProgress, installStatus:haxe.ui.components.Label,
+			bFinish:haxe.ui.components.Button) {
 		Sys.command("gksu -p -m Enter\\ password\\ to\\ continue | sudo -S echo Password obtained");
 		for (pkg in list) {
 			var cmd = 'sudo pacman -Sy $pkg --noconfirm';
@@ -31,5 +32,6 @@ class Packages {
 		}
 		installProgress.pos = 100;
 		installStatus.text = 'Complete!';
+		bFinish.disabled = false;
 	}
 }

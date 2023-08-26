@@ -148,7 +148,8 @@
 				<progress pos="0" id="installProgress" native="true" />
 			</hbox>
 			<hbox>
-				<button text="Finish" id="bFinish" style="color: white;" onclick="Sys.exit(0);" />
+				<button text="Finish" id="bFinish" style="color: white;" onclick="Sys.exit(0);"
+					disabled="true" />
 			</hbox>
 		</vbox>
 	</tabview>

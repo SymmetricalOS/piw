@@ -56,7 +56,7 @@ class MainView extends VBox {
 			if (kdeconnect.selected)
 				Packages.add("kdeconnect");
 
-			Packages.install(installProgress, installStatus);
+			Packages.install(installProgress, installStatus, bFinish);
 		}
 	}
 }
