@@ -1,16 +1,14 @@
 package;
 
 import haxe.ui.containers.VBox;
-import haxe.ui.events.MouseEvent;
 import haxe.ui.HaxeUIApp;
-import sys.thread.Thread;
 
 @:build(haxe.ui.ComponentBuilder.build("assets/main-view.xml"))
 class MainView extends VBox {
 	public function new(app:HaxeUIApp) {
 		super();
 		bInstall.onClick = function(e) {
-			tabs.pageIndex = 7;
+			tabs.pageIndex = 10;
 
 			if (firefox.selected)
 				Packages.add("firefox");
@@ -41,6 +39,51 @@ class MainView extends VBox {
 				Packages.add("gimp");
 			if (blender.selected)
 				Packages.add("blender");
+			if (krita.selected)
+				Packages.add("krita");
+			if (pinta.selected)
+				Packages.add("pinta");
+
+			if (steam.selected)
+				Packages.add("steam");
+			if (gamehub.selected)
+				Packages.add("! sudo escam aur gamehub");
+
+			if (vscode.selected)
+				Packages.add("! sudo escam aur visual-studio-code-bin");
+			if (codeoss.selected)
+				Packages.add("code");
+			if (ideac.selected)
+				Packages.add("! sudo escam aur intellij-idea-community-edition");
+			if (nano.selected)
+				Packages.add("nano");
+			if (emacs.selected)
+				Packages.add("emacs");
+			if (vim.selected)
+				Packages.add("vim");
+			if (pcc.selected)
+				Packages.add("pycharm-community-edition");
+
+			if (java.selected)
+				Packages.add("jdk17-openjdk");
+			if (python.selected)
+				Packages.add("python");
+			if (haxe.selected)
+				Packages.add("haxe");
+			if (rust.selected)
+				Packages.add("rust");
+			if (nodejs.selected)
+				Packages.add("npm");
+			if (zig.selected)
+				Packages.add("zig");
+			if (c.selected) {
+				Packages.add("gcc");
+				Packages.add("make");
+			}
+			if (lua.selected)
+				Packages.add("lua");
+			if (php.selected)
+				Packages.add("php");
 
 			if (discord.selected)
 				Packages.add("discord");

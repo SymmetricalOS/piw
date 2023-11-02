@@ -1,3 +1,11 @@
 --class-path src
 --main Main
---cpp bin/cpp
+
+--library haxeui-core
+--library haxeui-hxwidgets
+--library hxWidgets
+
+-D ABI=-MD
+-D WXSTATIC
+
+--cpp bin

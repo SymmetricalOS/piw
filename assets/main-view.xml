@@ -97,7 +97,95 @@
 				<checkbox id="blender" text="Blender" selected="false" />
 			</hbox>
 			<hbox>
+				<checkbox id="krita" text="Krita" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="pinta" text="Pinta" selected="false" />
+			</hbox>
+			<hbox>
 				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 5;" />
+			</hbox>
+		</vbox>
+		<vbox text="Games">
+			<hbox>
+				<label text="Games" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="steam" text="Steam" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="gamehub" text="GameHub" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 6;" />
+			</hbox>
+		</vbox>
+		<vbox text="Development">
+			<hbox>
+				<label text="Development Tools" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="vscode" text="Visual Studio Code (Proprietary)" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="codeoss" text="Code - OSS" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="ideac" text="IntelliJ IDEA Community Edition" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="nano" text="Nano" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="emacs" text="GNU Emacs" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="vim" text="Vim" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="pcc" text="PyCharm Community Edition" selected="false" />
+			</hbox>
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 7;" />
+			</hbox>
+		</vbox>
+		<vbox text="Programming">
+			<hbox>
+				<label text="Programming Languages" id="title" />
+
+			</hbox>
+			<hbox>
+				<checkbox id="java" text="Java (OpenJDK)" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="python" text="Python" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="haxe" text="Haxe" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="rust" text="Rust" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="nodejs" text="NodeJS" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="zig" text="Zig" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="c" text="C/C++" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="lua" text="Lua" selected="false" />
+			</hbox>
+			<hbox>
+				<checkbox id="php" text="PHP" selected="false" />
+			</hbox>
+
+			<hbox>
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 8;" />
 			</hbox>
 		</vbox>
 		<vbox text="Communication">
@@ -118,12 +206,12 @@
 				<checkbox id="signal" text="Signal" selected="false" />
 			</hbox>
 			<hbox>
-				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 6;" />
+				<button text="Next" id="button1" style="color: white;" onclick="tabs.pageIndex = 9;" />
 			</hbox>
 		</vbox>
-		<vbox text="Integration">
+		<vbox text="Integrations">
 			<hbox>
-				<label text="Integration" id="title" />
+				<label text="Integrations" id="title" />
 
 			</hbox>
 			<hbox>

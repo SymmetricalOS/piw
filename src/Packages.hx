@@ -1,6 +1,3 @@
-import haxe.ui.HaxeUIApp;
-import haxe.ui.containers.VBox;
-
 using StringTools;
 
 class Packages {
